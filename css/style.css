@@ -1,0 +1,28 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    min-width: 350px;
+    font-family: 'Roboto Light', sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    min-height: 100%;
+    flex-direction: column;
+}
+
+.main {
+    display: flex;
+    flex: 1 1 auto; /* flex-grow
+                       flex-shrink
+                       flex-basis
+                            */
+}
+
+img {
+    height: 25%;
+    width: 25%;
+}
